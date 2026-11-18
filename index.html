@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pecatto Bar e Restaurante</title>
+  <meta name="description" content="Trazendo um novo conceito em parmegiana!">
+  <meta property="og:title" content="Pecatto Bar e Restaurante">
+  <meta property="og:description" content="Trazendo um novo conceito em parmegiana!">
+  <meta name="theme-color" content="#5F1819">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Theme: change these values to restyle the whole page */
+    :root {
+      --bg: #5F1819;
+      --text: #FFFFFF;
+      --button: #E4B59A;
+      --button-text: #000000;
+    }
+
+    * { box-sizing: border-box; margin: 0; }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font: 500 16px/1.5 Manrope, system-ui, sans-serif;
+    }
+
+    main {
+      max-width: 580px;
+      margin: 0 auto;
+      padding: 48px 16px 64px;
+      text-align: center;
+    }
+
+    .avatar {
+      display: grid;
+      place-items: center;
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      background: var(--button);
+      color: var(--bg);
+      font-size: 48px;
+      font-weight: 700;
+      object-fit: cover;
+    }
+
+    h1 { font-size: 20px; font-weight: 700; }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 12px 0 32px;
+    }
+
+    .social a {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      color: var(--text);
+    }
+
+    .social svg { width: 28px; height: 28px; }
+
+    .links { display: grid; gap: 16px; }
+
+    .links section { display: grid; gap: 12px; margin-bottom: 8px; }
+
+    h2 { font-size: 16px; font-weight: 700; }
+
+    .link {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 56px;
+      padding: 12px 60px;
+      border-radius: 999px;
+      background: var(--button);
+      color: var(--button-text);
+      text-decoration: none;
+      transition: transform 0.15s ease;
+    }
+
+    .link svg { position: absolute; left: 20px; width: 24px; height: 24px; }
+
+    .link:hover { transform: scale(1.02); }
+    .link:active { transform: scale(0.98); }
+
+    a:focus-visible { outline: 3px solid var(--text); outline-offset: 3px; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .link { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- To use a logo image, replace this div with: <img class="avatar" src="logo.webp" alt=""> -->
+    <div class="avatar" aria-hidden="true">P</div>
+    <h1>Pecatto Bar e Restaurante</h1>
+    <p>Trazendo um novo conceito em parmegiana!</p>
+
+    <nav class="social" aria-label="Redes sociais">
+      <a href="https://instagram.com/pecattosp" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"/><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M16.5 7.5l0 .01"/></svg>
+      </a>
+      <a href="https://tiktok.com/@pecattosp" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z"/></svg>
+      </a>
+    </nav>
+
+    <div class="links">
+      <section aria-labelledby="delivery">
+        <h2 id="delivery">Nosso Delivery</h2>
+        <a class="link" href="https://pedido.anota.ai/loja/pecatto-gastrobar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M19 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M7.5 14h5l4 -4h-10.5m1.5 4l4 -4"/><path d="M13 6h2l1.5 3l2 4"/></svg>
+          10% mais barato que o iFood
+        </a>
+      </section>
+
+      <a class="link" href="https://wa.me/5511993423524">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"/><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"/></svg>
+        WhatsApp
+      </a>
+
+      <a class="link" href="https://livemenu.app/menu/669f9fbc8c0b7b968e68e3ab">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z"/><path d="M20 3h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z"/><path d="M10 13h-6a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1z"/><path d="M17 13a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z"/></svg>
+        Nosso Cardápio
+      </a>
+
+      <a class="link" href="https://share.google/a3QNow1HMtiV1chvs">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z"/></svg>
+        Nossa Localização
+      </a>
+
+      <a class="link" href="https://reservation-widget.tagme.com.br/reservation/schedule/669f9fbc8c0b7b968e68e3ab/reservationWidget">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"/><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"/><path d="M3 6l0 13"/><path d="M12 6l0 13"/><path d="M21 6l0 13"/></svg>
+        Link de reservas
+      </a>
+    </div>
+  </main>
+</body>
+</html>
